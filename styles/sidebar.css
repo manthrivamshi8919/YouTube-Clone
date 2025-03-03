@@ -1,0 +1,43 @@
+.sidebar1{
+    position:fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width:72px;
+    border-right-color:white;
+    border-right-style:solid ;
+    border-right-width:1px ;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.icon-button img{
+    height: 24px;
+    
+}
+
+.icon-button{
+    height: 74px;
+    
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.icon-button:hover{
+    background-color: rgb(237, 241, 241);
+
+}
+.icon-name{
+    font-size: 10px;
+    font-family: Roboto,Arial;
+    margin-top: 5px;
+}
